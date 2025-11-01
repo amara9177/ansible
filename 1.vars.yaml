@@ -6,6 +6,6 @@
     DURATION: 7 hrs
     LEARNER: amara
   tasks:
-    -name : print the course info
-    ansible.builtin.debug:
-    msg: "course Name is:{{COURSE}},duration: {{DURATION}},learner: {{LEARNER}}"
+    - name: print the course info
+      ansible.builtin.debug:
+        msg: "course Name is:{{COURSE}},duration: {{DURATION}},learner: {{LEARNER}}"
